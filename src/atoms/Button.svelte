@@ -1,9 +1,14 @@
 <script lang="ts">
-  export let role: string;
+  export let action: string = "";
+  export let src: string = "";
+  export let alt: string = "";
 </script>
 
 <button>
-  {role}
+  {#if src}
+    <img {src} {alt} />
+  {/if}
+  {action}
 </button>
 
 <style>
