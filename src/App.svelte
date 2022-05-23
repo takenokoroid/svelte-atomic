@@ -6,24 +6,12 @@
   import Link from "./atoms/Link.svelte";
   import Text from "./atoms/Text.svelte";
   import ImgLink from "./molecules/ImgLink.svelte";
+  import Header from "./organisms/Header.svelte";
   import Thumbnail from "./organisms/Thumbnail.svelte";
 </script>
 
 <main>
-  <Input />
-  <Button action={"search"} />
-  <IconButton className={"material-icons"} icon={"home"} />
-  <Link href="https://www.youtube.com/">リンク</Link>
-  <Img
-    src={"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"}
-    alt={"sample"}
-  />
-  <ImgLink
-    href="https://www.youtube.com/"
-    src={"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"}
-    alt={"sample"}
-  />
-  <Text>test</Text>
+  <Header />
   <Thumbnail />
 </main>
 
