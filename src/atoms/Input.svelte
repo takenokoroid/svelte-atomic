@@ -25,6 +25,10 @@
   export let type: InputType = "text";
 </script>
 
-<input {type} />
+<input {type} class="form" />
 
-<style></style>
+<style>
+  .form {
+    width: 30vw;
+  }
+</style>
