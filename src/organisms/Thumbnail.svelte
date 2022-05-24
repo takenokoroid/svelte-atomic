@@ -4,7 +4,7 @@
   import ImgLink from "../molecules/ImgLink.svelte";
 </script>
 
-<Box class="thumbnail">
+<Box class={$$props.class + " thumbnail"}>
   <ImgLink href="" src="assets/ffxiv_20220501.png" alt="ff14" class="image" />
   <Box class="description">
     <ImgLink href="" src="assets/Screenshot.png" alt="icon" class="icon" />
@@ -18,7 +18,6 @@
 
 <style>
   :global(.thumbnail) {
-    background-color: gainsboro;
     width: 300px;
   }
   :global(.description) {
