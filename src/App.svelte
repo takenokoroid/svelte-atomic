@@ -1,18 +1,9 @@
 <script lang="ts">
-  import Button from "./atoms/Button.svelte";
-  import IconButton from "./atoms/IconButton.svelte";
-  import Img from "./atoms/Img.svelte";
-  import Input from "./atoms/Input.svelte";
-  import Link from "./atoms/Link.svelte";
-  import Text from "./atoms/Text.svelte";
-  import ImgLink from "./molecules/ImgLink.svelte";
-  import Header from "./organisms/Header.svelte";
-  import Thumbnail from "./organisms/Thumbnail.svelte";
+  import Top from "./templates/Top.svelte";
 </script>
 
 <main>
-  <Header />
-  <Thumbnail />
+  <Top />
 </main>
 
 <style>
